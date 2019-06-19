@@ -14,7 +14,7 @@ var hideAll = () => {
     });
 }
 
-hideAll();
+// hideAll();
 
 articles[0].classList.remove("hidden");
 

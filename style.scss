@@ -8,13 +8,14 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgb(222, 233, 235);
+    background: rgb(220,232,244);
+background: linear-gradient(264deg, rgba(220,232,244,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 header{
     padding: 10px;
-    background: rgb(70,148,219);
-    background: linear-gradient(264deg, rgba(70,148,219,1) 0%, rgba(45,68,157,1) 100%);
+    background: rgb(57,157,171);
+    background: linear-gradient(264deg, rgba(57,157,171,1) 0%, rgba(45,109,157,1) 100%);
     color: rgb(225, 237, 245);
     box-shadow: 0px 2px 5px 0px rgba(33, 43, 58, 0.164), 0px 2px 20px 0px rgba(20, 23, 29, 0.096);
     height: 50px;
@@ -38,7 +39,7 @@ main{
 nav{
     width: 250px;
     min-height: calc(100vh - 50px);
-    background: rgba(52, 88, 129, 0.089);
+    background: rgba(62, 93, 128, 0.089);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267), 0px 0px 20px 0px rgba(0, 0, 0, 0.048);
     flex-grow: 0;
     flex-shrink: 0;
