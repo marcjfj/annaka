@@ -1,4 +1,4 @@
-## Cerifications
+## Certifications
 
 ### BLS Certification
 
