@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #dee9eb;
+}
+
+header {
+  padding: 10px;
+  background: #4694db;
+  background: linear-gradient(264deg, #4694db 0%, #2d449d 100%);
+  color: #e1edf5;
+  box-shadow: 0px 2px 5px 0px rgba(33, 43, 58, 0.164), 0px 2px 20px 0px rgba(20, 23, 29, 0.096);
+  height: 50px;
+}
+header h1 {
+  margin: 0px;
+  font-weight: 700;
+  padding-left: 15px;
+  font-size: 1.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+
+nav {
+  width: 250px;
+  min-height: calc(100vh - 50px);
+  background: rgba(52, 88, 129, 0.089);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.267), 0px 0px 20px 0px rgba(0, 0, 0, 0.048);
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 20px;
+  padding-top: 40px;
+  position: relative;
+}
+nav ul {
+  text-align: right;
+  position: fixed;
+  left: 50px;
+  width: 200px;
+}
+nav li {
+  list-style: none;
+  padding: 15px 10px;
+  color: #355463;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(39, 62, 90, 0.178);
+  cursor: pointer;
+  border-right: 5px solid transparent;
+  transition: all 0.5s;
+}
+nav li:hover {
+  color: #2171b3;
+  border-right: 5px solid #2171b3;
+}
+
+article {
+  background: #FFF;
+  padding: 20px 45px;
+  margin: 15px auto;
+  width: 100vw;
+  max-width: 900px;
+  box-shadow: 0px 2px 5px 0px rgba(33, 43, 58, 0.164), 0px 2px 20px 0px rgba(20, 23, 29, 0.096);
+  border-radius: 5px;
+  flex-grow: 1;
+  position: relative;
+}
+article h2 {
+  color: #1e4263;
+  text-align: center;
+  margin: -20px -35px 35px -35px;
+  padding: 25px;
+  padding-top: 35px;
+  border-bottom: 1px solid #7a9199;
+}
+article h3 {
+  color: #1e3642;
+  border-bottom: 1px solid #7a9199;
+  font-size: 1.3em;
+}
+article p {
+  color: #355463;
+  line-height: 1.5;
+  font-weight: 400;
+}
+article li {
+  margin-bottom: 10px;
+  color: #355463;
+}
+article .i-cont {
+  width: 100%;
+  max-width: 900px;
+  height: 700px;
+  position: relative;
+}
+article iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

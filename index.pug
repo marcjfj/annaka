@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="style.css")
+    body
+
+        header
+            h1 Annaka Karle
+        
+        main
+            nav
+                ul
+                    li Background
+                    li Mission
+                    li Resume
+                    li Certifications
+                    li Service Project
+                    li Self Evaluation
+            .articles
+                article.background
+                    include background.md
+                article.mission
+                    include mission.md
+                article.resume
+                    include resume.md
+                article.certifications
+                    include certifications.md
+                article.service-project
+                    include service-project.md
+                article.self-evaluation
+                    include self-evaluation.md
+                
+
+        footer
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js")
+        script(src="script.js")
